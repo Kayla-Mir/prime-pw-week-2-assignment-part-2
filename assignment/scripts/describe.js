@@ -72,10 +72,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We are making a variable called isStudent and setting the value to true, then
+// we are making a variable called age and setting the number value to 34, and
+// finally we are making a variable called zip and setting the number value to
+// 55407. Next we're running a series of if else conditionals. If the value of
+// isStudent is exactly true AND the zip value is greater than 80000 we
+// console.log 'You're a student on the West Coast!' If it doesn't apply it moves
+// to the next conditional which says if isStudent is exactly false OR the age
+// value is less than 30 we console.log 'What are your hobbies?'. If that also
+// doesn't apply then we move to the next conditional which says if isStudent is
+// exactly true then we console.log 'Welcome to Prime!'. If none of the above
+// are true the console.log will say 'How about the weather?'. The console.log
+// in this case would say 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -132,10 +140,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - colorOne and colorTwo should both be set to 'purple'
+// should add colorTwo = 'purple'; after the line colorOne = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
