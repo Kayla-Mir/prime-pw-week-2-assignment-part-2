@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We make a variable called name and set it to Dane as a script.
-// Then we write a conditional statement that checks if name is equal to
-// 'Mary' if it is the console.log would be 'Hi, Mary!' but its not so the
-// console.log instead outputs 'How do you do?'.
+// We make a variable called name and set it to Dane as a string.
+// Then we check if name is equal to 'Mary' and if it is we log
+// 'Hi, Mary!' but it's not so we log instead 'How do you do?'.
 
 //CODE
 /*
@@ -45,12 +44,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We make a variable called secret but don't assign it anything yet, we also
+// We make a variable called secret but don't assign anything to it yet, we also
 // make another variable called code and assign it a number value of 123. If
-// code is exactly 123 then setting the value of secret to super, code is also
-// doubled here. Now we're checking if code is greater than 250, if it was
-// than the value of secret would be set to duper. It is not greater than 250
-// so the console.log is 'super'.
+// code is exactly 123 then assign a value of 'super' to secret,
+// then the value of code is doubled. After we're checking if code is greater
+// than 250, if it is then secret is assigned the value of 'duper'.
+// In this case, it is not greater than 250, so the console.log is 'super'.
 
 //CODE
 /*
@@ -140,13 +139,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'
+// FIX - colorOne should be set to 'blue' and colorTwo should be set to 'red'.
+// Additinally The line: colorTwo = 'purple'; should be added after the
+// line colorOne = 'purple';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX - colorOne and colorTwo should both be set to 'purple'
-// The line: colorTwo = 'purple'; should be added after the line colorOne = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -161,6 +161,7 @@ let temp = 40;
 const time = 4;
 
 // FIX - || is the OR operator and it should be && which is the AND operator
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -176,8 +177,9 @@ const minAge = 21;
 
 // FIX - Currently we're checking if minAge is less than or equal to age, which
 // is technically the same thing as checking if age is greater than or equal to
-// minAge. So we should be logging 'enter' instead of 'no entry' on line 182 and
-// 'no entry' instead of 'enter' on line 184.
+// minAge. So the console logs should be swapped. It should log 'enter' within
+// the if statement, and log 'no entry' within the else statement.
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
