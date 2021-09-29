@@ -146,7 +146,7 @@ let colorTwo = 'blue';
 let mix = true;
 
 // FIX - colorOne and colorTwo should both be set to 'purple'
-// should add colorTwo = 'purple'; after the line colorOne = 'purple';
+// The line: colorTwo = 'purple'; should be added after the line colorOne = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -160,6 +160,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - || is the OR operator and it should be && which is the AND operator
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -173,6 +174,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - Currently we're checking if minAge is less than or equal to age, which
+// is technically the same thing as checking if age is greater than or equal to
+// minAge. So we should be logging 'enter' instead of 'no entry' on line 182 and
+// 'no entry' instead of 'enter' on line 184.
 if(minAge <= age) {
   console.log('no entry');
 } else {
